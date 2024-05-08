@@ -84,6 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   )
                 ],
               ),
+              SizedBox(height: 10,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -126,6 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ))
                 ],
               ),
+              SizedBox(height: 10,),
               SizedBox(
                   height: 350,
                   child: Chart(
@@ -200,6 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   // TextWidget(text1: 'Obese Class |||', text2: '>=45.0',answer: ans),
                 ],
               ),
+              SizedBox(height: 10,),
               const Text(
                 'Normal Weight : 117.9 -159.4 lb',
                 style: TextStyle(

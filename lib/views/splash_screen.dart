@@ -25,12 +25,19 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-          child: Image(
-            image: AssetImage("assets/images/bmi_logo.png"),
-            color: Colors.blue,
-            height: 200,
-            width: 200,
-          )),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Image(
+              image: AssetImage("assets/images/bmi_logo.png"),
+
+
+            ),
+            Text("BMI CALCULATOR",style: TextStyle(fontWeight: FontWeight.w500,fontSize: 30),)
+          ],
+        ),
+      ),
     );
   }
 }

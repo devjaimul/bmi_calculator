@@ -1,6 +1,4 @@
-This is a BMI calculator 
-
-A new Flutter project.
+#This is a BMI calculator 
 
 YouTube video link: https://youtube.com/shorts/hwuWMKYurU0?si=AuWOfREAwWVPODgY
 

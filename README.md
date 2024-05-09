@@ -1,4 +1,4 @@
-#This is a BMI calculator 
+# BMI_Calculator 
 
 YouTube video link: https://youtube.com/shorts/hwuWMKYurU0?si=AuWOfREAwWVPODgY
 
